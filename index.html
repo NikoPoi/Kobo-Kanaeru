@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/6e34dae195.js" crossorigin="anonymous"></script>
+    <title>Kobo Kanaeru</title>
+    <style>
+        .main-hero {
+            background: rgb(255,255,255);
+            background: linear-gradient(180deg, rgba(255,255,255,1) 63%, rgba(143,244,225,1) 81%, rgba(1,172,207,1) 100%);
+            height: 100vh;
+            overflow: hidden;
+        }
+        .middle-hero {
+            height: 100vh;
+            /* transform: rotate();*/
+        }
+        .middle-hero .kobo-avatar {
+            transform: translate();
+            animation: kobomuter 5s infinite;
+            /* animation-timing-function: linear; */
+        }
+        .middle-hero .kobo-kanaeru {
+            position: absolute;
+            transform: translate(430px, 56px);
+        }
+        .bridge {
+            height: 35vh;
+            overflow: hidden;
+        }
+
+        @keyframes kobomuter {
+            50% {
+                transform: rotate(15deg);
+            }
+        }
+        .titan-one-regular {
+            font-family: "Titan One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: black;
+        }
+        .outline {
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: black;
+        }
+    </style>
+</head>
+<body style="background-image: url(./assets/images/hololiveid.png); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; backdrop-filter: brightness(50%);">
+    <section class="main-hero container-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10">
+                    <img src="./assets/images/hololivelogo.png" alt="hololivelogo" class="img-fluid" width="170px" height="auto">
+                </div>
+                <div class="col" >
+                    <div class="d-flex justify-content-between" style="margin-top: 35px;">
+                        <i class="fa-solid fa-house fa-2xl m-2" style="color: #90afea;"></i>
+                        <i class="fa-solid fa-cloud fa-2xl m-2" style="color: #90afea;"></i>
+                        <i class="fa-solid fa-calendar-days fa-2xl m-2" style="color: #90afea;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid middle-hero">
+            <div class="align-content-center justify-content-center">
+                <div class="d-flex">
+                    <div class="kobo-avatar"><img src="./assets/images/kobokanaeru.png" alt="koboAvatar" class="img-fluid"></div>
+                    <div class="kobo-kanaeru"><img src="./assets/images/kobologo.png" alt="koboLogo" class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bridge bg-transparent">
+        <div class="container-fluid">
+            <div class="display-5 fw-bold text-center text-light" style="margin-top: 85px;">
+                HOLOLIVE INDONESIA 3RD GENERATION AAAAAAAA
+            </div>
+        </div>
+    </section>
+    <section class="kobo-character pt-5 pb-5" style="height: 120vh; background-image: url(./assets/images/cloud_bg.jpg); background-repeat: no-repeat; background-size: cover;">
+        <div class="container d-flex">
+            <div class="tidak-flex col-9">
+                <div class="row">
+                    <div class="display-4 mt-5 titan-one-regular text-light">
+                        <div class="fw-bold">
+                            KOBO KANAERU
+                        </div>
+                        <p class="fw-bold">
+                            こぼ•かなえる
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col">
+                        <div class="fw-bold h2 outline text-light">
+                            Age
+                        </div>
+                        <p class="fw-semibold mt-2 h4">
+                            I'm Legal
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="fw-bold h2 outline text-light">
+                            Birthday
+                        </div>
+                        <p class="fw-semibold mt-2 h4">
+                            12 December
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="fw-bold h2 outline text-light">
+                            Height
+                        </div>
+                        <p class="fw-semibold mt-2 h4">
+                            150cm
+                        </p>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-3">
+                        <div class="fw-bold h2 outline text-light">
+                            Weight
+                        </div>
+                        <p class="fw-semibold mt-2 h4">
+                            40 mg
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <div class="fw-bold h2 outline text-light">
+                            Oshi Mark
+                        </div>
+                        <p class="fw-semibold mt-4 h4">
+                            <i class="fa-solid fa-umbrella fa-2xl m-2"></i>
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <div class="fw-bold h2 outline text-light">
+                            Languages
+                        </div>
+                        <p class="">
+                            <div><span class="fw-semibold h4 me-4"> Bahasa Indonesia </span><span class="fst-italic">pro</span></div>
+                        </p>
+                        <p class="">
+                            <div><span class="fw-semibold h4 me-4"> English </span><span class="fst-italic">kinda broken</span></div>
+                        </p>
+                        <p class="">
+                            <div><span class="fw-semibold h4 me-4"> Programming </span><span class="fst-italic">still learning</span></div>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="kobo-abstrak">
+                <img src="./assets/images/chibikobo.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} " alt="kobochibi">
+            </div>
+        </div>
+    </section>
+    <section class="kobo-information pb-5" style="height: 100vh; background-image: url(./assets/images/cloud_bg_reverse.jpg); background-repeat: no-repeat; background-size: cover;">
+        <div class="container-fluid">
+            <div class="text-center display-3 fw-bold titan-one-regular text-light">CHARACTER INFORMATION</div>
+        </div>
+    </section>
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
